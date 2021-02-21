@@ -1,0 +1,288 @@
+body{
+    background-color: #F6F6F6;
+    margin: 0;
+    border-top: 8px solid #6CC6C4;
+}
+
+.container{
+    width: 923px;
+    margin: 0 auto;
+    font-family: Verdana;
+}
+img {    
+    width: 255px;    
+    height: 45px;
+     margin-top: 46px;
+}
+.ue{
+    display: flex;
+
+}
+
+
+.yoyaku{
+    font: normal 400 10px/18px Verdana;
+    color: #515151;
+    margin: 0;
+}
+header p{
+    font: normal 400 26px/46px Verdana;
+    color: #515151;
+    margin: 10px;
+}
+header div div div.yoyaku{
+    border: solid;
+    border-color: #515151;
+    border-width: thin;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.red{
+    color: #b22c00;
+}
+
+.migi{
+    margin-left: auto;
+}
+
+header ul{
+    display: flex;
+    padding: 0;
+    border-radius: 10px;
+}
+
+header li{
+    list-style: none;
+    flex: 1;
+    text-align: center;
+    height: 74px;
+    display: table;
+    border-right: 1px solid #9BE2E1;
+    border-left: 1px solid #6DC6C4;
+    background: linear-gradient(to bottom, #9BE2E1, #6DC6C4);
+    font: normal 700 14px/20px Verdana;
+}
+header li:first-child{
+    border-left: none;
+    border-radius: 10px 0 0 10px;
+}
+header li:last-child{
+    border-right: none;
+    border-radius: 0 10px 10px 0;
+}
+header li:hover{
+    background: linear-gradient(to top, #9BE2E1, #6DC6C4);
+    
+}
+header li span{
+    display: block;
+    font: normal 700 10px/15px Verdana;
+
+}
+
+.material-icons{
+    display: inline-flex;
+    vertical-align: middle;
+
+}
+
+header a{
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+}
+
+header a:hover{
+    color: rgba(255, 255,255, 0.5);
+}
+
+/* section */
+
+
+.hidari{
+    width: 260px;
+    height: 232px;
+    border: thin solid #6CC6C4;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 25px;
+    background: #ffffff;
+}
+
+.hidari ul{
+    padding: 0 15px;
+    margin: 0;
+}
+.hidari h1{
+    height: 42px;
+    background: linear-gradient(to bottom, #9BE2E1, #6DC6C4);
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    font: 700 16px/40px Verdana;
+    color: #ffffff;
+    padding-left: 12px;
+    
+}
+section li{
+    position: relative;
+    padding-left: 15px;
+    list-style: none;
+    border-bottom: thin solid #6CC6C4;
+    height: 41px;
+    font: 550 14px/25px Verdana;
+    line-height: 41px;
+
+}
+ 
+section li:before{
+    content: "";
+    position: absolute;
+    top: 1.3em;
+    left: 0;
+    width: 7px;
+    height: 7px;
+    background-color: #6CC6C4;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+section a{
+    text-decoration: none;
+    color: #585858;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+section a:hover{
+    color: #6cc6c4;
+}
+.a{
+    display: flex;
+}
+
+
+/* 本編 */
+.honpen{
+    width: 640px;
+    margin-left: auto;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.honpen h1{
+    height: 102px;
+    background: linear-gradient(to bottom, #9BE2E1, #6DC6C4);
+    font: 700 20px/102px Verdana;
+    color: #fff;
+    padding-left: 20px;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #6CC6C4;
+    margin: 0;
+}
+.y{
+    margin: 20px;
+}
+.honpen h2,.img,.x{
+    /* width: 600px; */
+    margin: 0 auto;
+}
+.honpen h2{
+    font: 700 16px/50px Verdana;
+    color: #515151;
+    border-bottom: 2px solid #6CC6C4;
+    margin-top: 25px;
+}
+.honpen img{
+    height: 200px;
+    width: 200px;
+    margin: 0;
+}
+.img{
+    display: flex;
+    margin-top: 20px;
+}
+.ryakureki{
+    margin-left: 20px;
+}
+.ryakureki p{
+    color: #515151;
+    margin: 0;
+}
+.honpen h3{
+    font: 700 15px/27px Verdana;
+    color: #6cc6c4;
+}
+.name{
+    background-color: #6CC6C4;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font: 400　13px/23px Verdana;
+    width: 100%;
+}
+.honpen{
+    font: 400 13px/23px Verdana;
+}
+.x p{
+   margin: 0; 
+}
+.x div{
+   margin-bottom:  10px;
+}
+.x img{
+    width: 600px;
+    height: 450px;
+    margin: 10px auto;
+}
+.x p:last-child{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+/* 本編終了 */
+/* footer */
+
+footer ul{
+    display: flex;
+    background-color: #6CC6C4;
+    border-radius: 5px;
+    height: 30px;
+    margin: 0;
+}
+
+footer li{
+    list-style: circle;
+    margin-right: 40px;
+    font: 400 13px/30px Verdana;
+    color: #ffffff;
+   
+}
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+.migiyose{
+    text-align: right;
+    height: 50px;
+    border-bottom: 2px solid #6CC6C4;
+    margin: 0;
+    font: 700 13px/50px Verdana;
+    color: #515151;
+}
+
+.tyuou{
+    text-align: center;
+    font: 400 12px/22px Verdana;
+    color: #515151;
+}
